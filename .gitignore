@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+
+# Datasets and training outputs (rebuilt by the scripts)
+software/data/
+software/checkpoints/
+software/checkpoints_ft/
+scripts/mnist_test.npz
+
+# Simulator outputs
+csrc/
+simv*
+*.daidir/
+ucli.key
+AN.DB/
+DVEfiles/
+.vcsmx_rebuild
+*.vcd
+*.vpd
+*.fsdb
+*.log
+!software/train.log
+
+# Process and library files never belong here
+*.lib
+*.db
+*.lef
+*.tf
+*.gds
+*.gds2
+*.oas
+*.sdf
+*.sdc
+*.ddc
+*.spi
+*.svf
+*.rpt
+
+# Editor and OS files
+*~
+*.swp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
